@@ -244,7 +244,7 @@ library's functions carry one.
 To show what an actual pipeline achieves relative to the ceiling, we
 use SRT (Fig.~\ref{fig:pipeline}): it gates functions by the same identifiability
 test, builds compilation-invariant code-search queries, verifies each candidate
-with a locally hosted code model (name withheld), and propagates confirmed matches
+with a locally hosted code model, Qwen2.5-Coder-7B served by Ollama~\cite{qwen25coder,ollama}, and propagates confirmed matches
 along the call graph. Read as an example, not a claim: verification is local, but the
 search stage sends distinctive constants and strings to a third-party API, so the
 binary is not kept private.

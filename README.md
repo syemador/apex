@@ -10,7 +10,7 @@
 
 ---
 
-## 🌍 Overview
+## Overview
 
 **APEX** measures how many functions in a stripped binary can be attributed back to their source file *at all*, before any particular matching method is applied. It is a measurement study, not a tool: rather than proposing yet another matcher, it puts a **method-independent upper bound** on the recall of any lexical-feature retrieval method and shows how far that bound sits above what is actually attributable once feature uniqueness is taken into account.
 
@@ -26,7 +26,7 @@ The harness builds a provenance-controlled corpus from upstream sources, compile
 
 ---
 
-## ✨ Key Results (as measured in this repo)
+## Key Results (as measured in this repo)
 
 Measured on **30 real C libraries** compiled with **gcc 13.3.0 `-O2`** (2566 functions; zlib additionally built at `-O0/-O3/-Os`):
 
@@ -49,7 +49,7 @@ Per-library numbers are in `evalkit/CEILING_TABLE.csv` and `evalkit/ATTRIBUTABIL
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 apex/
@@ -94,7 +94,7 @@ Cloned sources (`evalkit/src/`, `ext_src/`, `new_src/`) and compiled corpora (`c
 
 ---
 
-## 🧰 Setup
+## Setup
 
 ### Prerequisites
 
@@ -118,7 +118,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1) Inspect the measured results (no build, instant)
 
@@ -171,7 +171,7 @@ pdflatex main.tex
 
 ---
 
-## 🔬 Reproduction Methodology
+## Reproduction Methodology
 
 The repository is self-reproducing: starting from a clean clone with no sources or build outputs, the four build scripts fetch every library from upstream and the analysis scripts regenerate every committed result.
 
@@ -199,7 +199,7 @@ The 15 original libraries are cloned at pinned release tags and reproduce exactl
 
 ---
 
-## 📊 Included Outputs
+## Included Outputs
 
 The committed results under `evalkit/` are the exact artifacts the paper reports:
 
@@ -214,7 +214,7 @@ Build outputs (`corpus/`, `corpus_clang/`) and cloned sources are git-ignored an
 
 ---
 
-## ⚠️ Known Limitations
+## Known Limitations
 
 These are stated plainly so reviewers can calibrate expectations:
 
@@ -226,7 +226,7 @@ These are stated plainly so reviewers can calibrate expectations:
 
 ---
 
-## 📜 Citation
+## Citation
 
 ```bibtex
 @inproceedings{apex,
@@ -240,7 +240,7 @@ These are stated plainly so reviewers can calibrate expectations:
 
 ---
 
-## 📄 License
+## License
 
 The harness, scripts, and paper in this repository are released under the **MIT License** (see `LICENSE`). The corpus libraries are fetched from their upstream repositories at build time and remain under their own permissive licenses (zlib, MIT, BSD, public-domain, and similar); none is redistributed here.
 
