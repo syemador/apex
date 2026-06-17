@@ -1,0 +1,12 @@
+# Python dependencies for the APEX measurement harness (Python 3.12).
+#   pip install -r requirements.txt
+#
+# The second, independent extractor used by validate_capstone.py:
+capstone>=5.0
+pyelftools>=0.31
+
+# System tools used by the harness (install via your package manager, not pip):
+#   gcc      13.3.0   (corpus ground-truth builds)
+#   clang    18.1.3   (compiler-axis / robustness builds)
+#   binutils 2.42     (objdump, nm -- the primary extractor)
+#   git                (shallow clones of the corpus libraries)

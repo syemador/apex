@@ -1,0 +1,6 @@
+threshold,median_ceil_unfiltered,median_ceil_filtered,median_ceil_filtered_strictdata
+256,67.1,37.9,32.0
+1024,64.0,33.1,25.7
+4096,64.0,32.5,25.0
+16384,64.0,28.4,20.3
+65536,62.8,27.2,20.3

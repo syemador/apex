@@ -1,0 +1,31 @@
+library,type,source_repo,ref,n_functions,ceil_pct,attributable_corpus_pct
+microtar,archive,https://github.com/rxi/microtar,default (shallow),19,15.8,0.0
+heatshrink,compression,https://github.com/atomicobject/heatshrink,default (shallow),16,12.5,0.0
+lz4,compression,https://github.com/lz4/lz4,v1.9.4,162,49.4,31.5
+miniz,compression,https://github.com/richgel999/miniz,default (shallow),141,39.7,28.4
+zlib,compression,https://github.com/madler/zlib,v1.3.1,130,58.5,22.3
+inih,config,https://github.com/benhoyt/inih,r58,7,14.3,0.0
+tomlc99,config,https://github.com/cktan/tomlc99,master,57,12.3,5.3
+monocypher,crypto,https://github.com/LoupVaillant/Monocypher,default (shallow),82,41.5,32.9
+klib,data-structures,https://github.com/attractivechaos/klib,default (shallow),177,61.6,22.6
+base64,encoding,https://github.com/joedf/base64.c,default (shallow),7,0.0,0.0
+qrcodegen,encoding,https://github.com/nayuki/QR-Code-generator,default (shallow),25,84.0,80.0
+tinyexpr,expression-eval,https://github.com/codeplea/tinyexpr,default (shallow),27,11.1,3.7
+sha2,hashing,https://github.com/amosnier/sha-2,default (shallow),5,20.0,20.0
+xxHash,hashing,https://github.com/Cyan4973/xxHash,v0.8.2,61,52.5,52.5
+stb,image,https://github.com/nothings/stb,default (shallow),113,38.1,23.9
+cJSON,json-parsing,https://github.com/DaveGamble/cJSON,v1.7.18,90,10.0,7.8
+jsmn,json-parsing,https://github.com/zserge/jsmn,default (shallow),2,50.0,50.0
+parson,json-parsing,https://github.com/kgabis/parson,master,120,9.2,5.8
+yyjson,json-parsing,https://github.com/ibireme/yyjson,0.10.0,68,25.0,19.1
+logc,logging,https://github.com/rxi/log.c,default (shallow),8,25.0,25.0
+md4c,markdown,https://github.com/mity/md4c,release-0.5.2,60,50.0,36.7
+http_parser,networking,https://github.com/nodejs/http-parser,v2.9.4,17,52.9,52.9
+mongoose,networking,https://github.com/cesanta/mongoose,7.14,265,33.2,24.5
+picohttpparser,networking,https://github.com/h2o/picohttpparser,default (shallow),9,33.3,11.1
+cwalk,path,https://github.com/likle/cwalk,v1.2.9,33,12.1,9.1
+tinyregex,regex,https://github.com/kokke/tiny-regex-c,default (shallow),8,37.5,0.0
+lua,scripting,https://github.com/lua/lua,v5.4.7,408,31.9,22.8
+mpack,serialization,https://github.com/ludocode/mpack,default (shallow),366,6.8,1.6
+sds,text,https://github.com/antirez/sds,master,50,22.0,20.0
+utf8proc,text,https://github.com/JuliaStrings/utf8proc,v2.9.0,33,60.6,48.5
